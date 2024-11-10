@@ -713,23 +713,31 @@ Sarsa chose the safer path than Q-learning. This happens because the state-actio
 
 <figure markdown>
 
-![Figure 10: The optimal policy found by SARSA in Cliff Walking environment.](images/SARSA_Cliff_Walking_0.gif)
-
+<!-- ![Figure 10: The optimal policy found by SARSA in Cliff Walking environment.](images/sarsa.mp4) -->
+<video width="700" controls>
+  <source src="images/sarsa.mp4" type="video/mp4">
+</video>
  <figcaption markdown>
  Figure 10: The optimal policy found by SARSA in Cliff Walking environment.
  </figcaption>
 
-</figure>
-
-<figure markdown>
-
-![Figure 11: The optimal policy found by Q-learning in Cliff Walking environment.](images/q_learning_Cliff_Walking_0.gif)
-
- <figcaption markdown>
- Figure 11: The optimal policy found by Q-learning in Cliff Walking environment.
 </figcaption>
 
 </figure>
+
+
+<figure markdown>
+
+<!-- ![Figure 11: The optimal policy found by Q-learning in Cliff Walking environment.](images/q_learning.mp4) -->
+
+<video width="700" controls>
+  <source src="images/q_learning.mp4" type="video/mp4">
+</video>
+ <figcaption markdown>
+ Figure 11: The optimal policy found by Q-learning in Cliff Walking environment.
+</figcaption>
+</figure>
+
 
 ### 2. Value Iteration vs Policy Iteration
 
